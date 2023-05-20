@@ -1,0 +1,177 @@
+img.background 
+{
+    min-height: 100%;
+    min-width: 400px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    filter: brightness(70%) blur(0.2em);  
+}
+header 
+{   
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%)
+}  
+h1 
+{
+    text-shadow: 0 45px 5px rgb(255, 255, 255);
+    color: rgba(255, 223, 83, 0.842);
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+}
+.line 
+{
+  width: 90%;  
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  height: 2px;
+  border: 1;
+  border-color: rgb(231, 230, 176);
+  background-color: rgb(235, 189, 89);   
+}
+.lines 
+{
+  width: 90%;  
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  height: 1px;
+  border: 0.1;
+  border-color: rgb(231, 230, 176);
+  background-color: rgb(235, 189, 89);   
+}
+.contact a
+{
+	color: rgba(255, 239, 169, 0.842);
+	text-decoration: none;
+} 
+.contact a:hover
+{
+    color: rgb(255, 251, 0);
+}
+.contact a:active
+{
+    font-size: 17px;
+    font-weight: 200;
+}
+.text
+{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+    color: white;
+    font-size: 20px;
+    width: 40%;
+    text-indent: 40px;
+    padding-left: -40px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 30px;
+    text-align: justify;
+}
+button
+{
+    width: 200px;
+    background: linear-gradient(to right, #F6EFD2, #CEAD78);
+    border-width: 2px;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 700;
+    border-color: rgba(255, 233, 35, 0.356);  
+}
+button:active
+{
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+}
+button:hover
+{
+    border-color: rgb(255, 255, 255);
+}
+.a 
+{
+    position: absolute;
+    top: 140px;
+    left: 20%;
+    margin-right: -50%;
+    transform: translate(-50%);
+}
+.b 
+{
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+}
+.c 
+{
+    position: absolute;
+    top: 140px;
+    left: 80%;
+    margin-right: -50%;
+    transform: translate(-50%);
+}
+.contact
+{
+    position: absolute;
+    top: 210px;
+    left: 77%;
+    margin-right: -50%;
+    transform: translate(-50%);
+    line-height: 30px;  
+    font-size: 20px; 
+    font-weight: 700;
+}
+.contact p
+{
+    color: rgba(255, 223, 83, 0.842);
+}
+.logo
+{
+    position: absolute;
+    top: 230px;
+    left: 20%;
+    margin-right: -50%;
+    transform: translate(-50%);
+    width: 200px;
+    background-color: rgba(255, 219, 153, 0.3);
+    border-radius: 100px;
+}
+.poisk
+{
+    position: absolute;
+    top: 80px;
+    left: 80%;
+    margin-right: -50%;
+    transform: translate(-50%);
+
+}
+.poisk button
+{
+    width: 80px;
+    font-size: 15px;
+    font-weight: 400;
+    height: 30px;
+}
+input 
+{
+    width: 120px;
+background: linear-gradient(to right, #ffffffa8, #ffd796de);
+}
